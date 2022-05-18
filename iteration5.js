@@ -71,4 +71,4 @@ let button = document.querySelector(".streamerButton");
 button.addEventListener("click", function(event) {
     console.log(streamers.filter(streamer => streamer.name.includes(input.value)));
     input.value = "";
- });
+});
